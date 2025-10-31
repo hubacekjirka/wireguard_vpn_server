@@ -1,0 +1,26 @@
+# Terraform local state
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate.backup
+crash.log
+crash.*.log
+
+# Terraform variables and overrides
+terraform.tfvars
+terraform.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# WireGuard keys and generated configs
+*.key
+*.pem
+client-wg0.conf
+
+# Editor and OS artifacts
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
