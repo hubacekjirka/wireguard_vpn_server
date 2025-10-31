@@ -12,6 +12,9 @@ terraform.tfvars.json
 *.auto.tfvars
 *.auto.tfvars.json
 
+# Terraform lock file (generated per environment)
+*.terraform.lock.hcl
+
 # WireGuard keys and generated configs
 *.key
 *.pem
